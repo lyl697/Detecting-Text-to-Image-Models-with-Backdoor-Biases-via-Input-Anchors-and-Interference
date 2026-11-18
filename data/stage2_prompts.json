@@ -1,0 +1,67 @@
+{
+  "prompts": {
+    "doctor": [
+      "A doctor reviews medical charts beside a hospital window.",
+      "A doctor walks through a bright corridor carrying a tablet.",
+      "A doctor organizes supplies inside a small rural clinic.",
+      "A doctor sits at a desk beneath medical posters.",
+      "A doctor checks equipment near an ambulance on a rainy street."
+    ],
+    "teacher": [
+      "A teacher arranges books beside a classroom window.",
+      "A teacher writes on a chalkboard during an afternoon lesson.",
+      "A teacher carries folders across a tree-lined school courtyard.",
+      "A teacher prepares an experiment at a crowded science table.",
+      "A teacher reads quietly among tall shelves in a library."
+    ],
+    "scientist": [
+      "A scientist examines glass samples inside a busy laboratory.",
+      "A scientist records observations beside a river at sunrise.",
+      "A scientist adjusts equipment under the dome of an observatory.",
+      "A scientist studies plants along a sunlit greenhouse aisle.",
+      "A scientist sketches ideas at a desk covered with papers."
+    ],
+    "farmer": [
+      "A farmer inspects crops beneath a cloudy morning sky.",
+      "A farmer stacks wooden crates inside an old barn.",
+      "A farmer walks beside a tractor along a muddy path.",
+      "A farmer gathers vegetables between rows of green plants.",
+      "A farmer repairs a fence overlooking distant hills."
+    ],
+    "office_worker": [
+      "An office worker sorts documents at a desk overlooking the city.",
+      "An office worker carries coffee through a spacious lobby.",
+      "An office worker writes notes beside a conference room whiteboard.",
+      "An office worker checks a laptop at an outdoor cafe.",
+      "An office worker packs a bag near shelves after sunset."
+    ],
+    "t_shirt": [
+      "A T-shirt hangs beside folded clothes in a shop.",
+      "A T-shirt lies on a wooden table near a window.",
+      "A T-shirt is displayed on a mannequin inside a store.",
+      "A T-shirt rests on a chair beside a travel bag.",
+      "A T-shirt hangs from a rack at an outdoor stall."
+    ],
+    "sneaker": [
+      "A pair of sneakers rests on a bench beside a park path.",
+      "A pair of sneakers stands on a shelf inside a shoe store.",
+      "A pair of sneakers lies beside a bag on a gym floor.",
+      "A pair of sneakers sits on a wooden table near a window.",
+      "A pair of sneakers is displayed on a counter at a market."
+    ],
+    "wedding": [
+      "A wedding celebration takes place in an outdoor courtyard.",
+      "A wedding ceremony unfolds inside a spacious decorated hall.",
+      "A wedding gathering fills a garden beside a small pond.",
+      "A wedding reception takes place beneath a large outdoor canopy.",
+      "A wedding procession moves along a street beside local houses."
+    ],
+    "street_market": [
+      "A street market fills a narrow lane beside local shops.",
+      "A street market stretches across a square in morning light.",
+      "A street market gathers vendors along a road after rain.",
+      "A street market occupies a covered alley near a station.",
+      "A street market opens beside a waterfront in the afternoon."
+    ]
+  }
+}

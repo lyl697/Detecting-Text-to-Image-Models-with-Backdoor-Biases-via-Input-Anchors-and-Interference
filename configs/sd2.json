@@ -1,0 +1,336 @@
+{
+  "architecture": "sd2",
+  "generation": {
+    "dtype": "float16",
+    "guidance_scale": 7.5,
+    "height": 768,
+    "width": 768,
+    "num_inference_steps": 50
+  },
+  "train_models": [
+    {
+      "name": "clean_1",
+      "model_id": "models/sd2/model_12",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "clean_2",
+      "model_id": "models/sd2/base",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "backdoor_1",
+      "model_id": "models/sd2/model_11",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "backdoor_2",
+      "model_id": "models/sd2/model_05",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "clean_3",
+      "model_id": "models/sd2/model_40",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "backdoor_3",
+      "model_id": "models/sd2/source_backdoor_3",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    }
+  ],
+  "test_models": [
+    {
+      "name": "sd2_model_01",
+      "model_id": "models/sd2/model_01",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_02",
+      "model_id": "models/sd2/model_02",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_03",
+      "model_id": "models/sd2/model_03",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_04",
+      "model_id": "models/sd2/model_04",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_05",
+      "model_id": "models/sd2/model_05",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_06",
+      "model_id": "models/sd2/model_06",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_07",
+      "model_id": "models/sd2/model_07",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_08",
+      "model_id": "models/sd2/model_08",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_09",
+      "model_id": "models/sd2/model_09",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_10",
+      "model_id": "models/sd2/model_10",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_11",
+      "model_id": "models/sd2/model_11",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_12",
+      "model_id": "models/sd2/model_12",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_13",
+      "model_id": "models/sd2/model_13",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_14",
+      "model_id": "models/sd2/model_14",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_15",
+      "model_id": "models/sd2/model_15",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_16",
+      "model_id": "models/sd2/model_16",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_17",
+      "model_id": "models/sd2/model_17",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_18",
+      "model_id": "models/sd2/model_18",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_19",
+      "model_id": "models/sd2/model_19",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_20",
+      "model_id": "models/sd2/base",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_21",
+      "model_id": "models/sd2/model_21",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_22",
+      "model_id": "models/sd2/model_22",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_23",
+      "model_id": "models/sd2/model_23",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_24",
+      "model_id": "models/sd2/model_24",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_25",
+      "model_id": "models/sd2/model_25",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_26",
+      "model_id": "models/sd2/model_26",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_27",
+      "model_id": "models/sd2/model_27",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_28",
+      "model_id": "models/sd2/model_28",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_29",
+      "model_id": "models/sd2/model_29",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_30",
+      "model_id": "models/sd2/model_30",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_31",
+      "model_id": "models/sd2/model_31",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_32",
+      "model_id": "models/sd2/model_32",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_33",
+      "model_id": "models/sd2/model_33",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_34",
+      "model_id": "models/sd2/model_34",
+      "lora_id": "",
+      "label": 1,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_35",
+      "model_id": "models/sd2/model_35",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_36",
+      "model_id": "models/sd2/model_36",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_37",
+      "model_id": "models/sd2/model_37",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_38",
+      "model_id": "models/sd2/model_38",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_39",
+      "model_id": "models/sd2/model_39",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    },
+    {
+      "name": "sd2_model_40",
+      "model_id": "models/sd2/model_40",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd2"
+    }
+  ]
+}

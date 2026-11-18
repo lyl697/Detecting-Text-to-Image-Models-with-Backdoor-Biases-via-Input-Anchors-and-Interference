@@ -1,0 +1,336 @@
+{
+  "architecture": "sd35",
+  "generation": {
+    "dtype": "float16",
+    "guidance_scale": 7.5,
+    "height": 768,
+    "width": 768,
+    "num_inference_steps": 50
+  },
+  "train_models": [
+    {
+      "name": "clean_1",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_05",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "clean_2",
+      "model_id": "models/sd35/base",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "backdoor_1",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_03",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "backdoor_2",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_15",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "clean_3",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_38",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "backdoor_3",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/source_backdoor_3",
+      "label": 1,
+      "architecture": "sd35"
+    }
+  ],
+  "test_models": [
+    {
+      "name": "sd35_model_01",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_01",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_02",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_02",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_03",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_03",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_04",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_04",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_05",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_05",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_06",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_06",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_07",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_07",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_08",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_08",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_09",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_09",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_10",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_10",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_11",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_11",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_12",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_12",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_13",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_13",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_14",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_14",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_15",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_15",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_16",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_16",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_17",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_17",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_18",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_18",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_19",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_19",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_20",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_20",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_21",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_21",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_22",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_22",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_23",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_23",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_24",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_24",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_25",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_25",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_26",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_26",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_27",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_27",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_28",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_28",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_29",
+      "model_id": "models/sd35/base",
+      "lora_id": "",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_30",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_30",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_31",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_31",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_32",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_32",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_33",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_33",
+      "label": 1,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_34",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_34",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_35",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_35",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_36",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_36",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_37",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_37",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_38",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_38",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_39",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_39",
+      "label": 0,
+      "architecture": "sd35"
+    },
+    {
+      "name": "sd35_model_40",
+      "model_id": "models/sd35/base",
+      "lora_id": "models/sd35/model_40",
+      "label": 0,
+      "architecture": "sd35"
+    }
+  ]
+}
